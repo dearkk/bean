@@ -1,3 +1,6 @@
-[submodule "pkg/component"]
-	path = pkg/component
+[submodule "staging/component"]
+	path = staging/component
 	url = https://github.com/dearkk/component.git
+[submodule "staging/kube-mesh"]
+	path = staging/kube-mesh
+	url = https://github.com/dearkk/kube-mesh.git
