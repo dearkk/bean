@@ -7,3 +7,6 @@
 [submodule "pkg/component"]
 	path = pkg/component
 	url = https://github.com/dearkk/component.git
+[submodule "pkg/paas"]
+	path = pkg/paas
+	url = https://github.com/dearkk/paas.git
