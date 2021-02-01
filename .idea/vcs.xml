@@ -2,9 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/market" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/monitor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pipeline" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pkg/component" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pkg/kube-mesh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pkg/paas" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pkg/supervise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/supervise" vcs="Git" />
   </component>
 </project>
