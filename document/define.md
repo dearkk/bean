@@ -41,31 +41,17 @@ http响应状态码都是200；当操作成功时，code 为200，result 是 suc
 
 **分页说明**
 
-如无特殊说明，分页的页码page_num从0开始，每页大小page_size为10。分页返回结果示例：
+如无特殊说明，分页的页码page_num从1开始，每页大小page_size为10。分页返回结果示例：
 ```
 {
 	"code":200,// 操作结果状态码
 	"result":"success",// 操作结果描述
 	"data":{
 		"page_size":10,//每页大小
-		"page_num":0,//页码
+		"page_num":1,//页码
 		"page_total":3,//总页数
 		"record_total":25,//总记录数
 		"list":[{}]//数据列表
 	},
 }
 ```
-
-**常用属性编码说明**
-
-| 序号 | 编码 | 类型 | 说明 |
-| :--|: ------------ |: ------------ |: ------------ |
-| 1 |  page_size | int | 分页，每页大小 |
-| 2 | page_num | int | 分页，页码，第一页是0 |
-| 3 | created_at | string | 创建时间，格式一般是YYYY-MM-dd :HH:mm |
-| 4 | updated_at | string | 更新时间，格式一般是YYYY-MM-dd :HH:mm |
-| 5 | created_by_id | string/int| 创建人标识符 |
-| 6 | created_by | string/int| 创建人名称 |
-| 7 | updated_by_id | string/int| 更新人标识符 |
-| 8 | updated_by | string/int| 更新人名称 |
-| 9 | id | string/int| 记录ID |
