@@ -3,23 +3,21 @@
 
 **URL约定**
 
-`[http|https]://host:port/module/version/resouce/method`
+`[http|https]://host:port/service/version/resouce/method`
 
 	新增：POST .../create
 	修改：POST .../update
 	删除：POST .../delete
-	详情：GET .../describe
-	列表：GET .../list
-	分页：GET .../page
+	查询：GET .../page
 
 URL示例：
-`http://20.97.8.111:8080/xh-cloud/v1/image/create`
+`http://20.97.8.111:8080/cloud/v1/image/create`
 
-**接口中的Access Token**
+**接口中的Access Token**查询
 
 无特别说明的接口，访问都需要用户正确登录获取Access Token后才能访问，每次API调用都需要在HTTP头里加上如下字段.
 
-`xh-cloud-token: ACCESSTOKENXXXXXX`
+`cloud-token: ACCESSTOKENXXXXXX`
 
 **请求响应**
 
@@ -27,7 +25,7 @@ URL示例：
 ```
 {
 	"code":200,// 操作结果状态码
-	"result":"success",// 操作结果描述
+	"msg":"success",// 操作结果描述
 	"data":JSON,// 具体返回数据
 }
 ```
