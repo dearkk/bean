@@ -8,7 +8,7 @@
 	新增：POST .../create
 	修改：POST .../update
 	删除：POST .../delete
-	查询：GET .../page
+	查询：GET .../query
 
 URL示例：
 `http://20.97.8.111:8080/cloud/v1/image/create`
