@@ -1,27 +1,6 @@
 [submodule "component"]
 	path = component
 	url = https://github.com/dearkk/component.git
-[submodule "paas"]
-	path = paas
-	url = https://github.com/dearkk/paas.git
-[submodule "pipeline"]
-	path = pipeline
-	url = https://github.com/dearkk/pipeline.git
-[submodule "gateway"]
-	path = gateway
-	url = https://github.com/dearkk/gateway.git
 [submodule "market"]
 	path = market
 	url = https://github.com/dearkk/market.git
-[submodule "monitor"]
-	path = monitor
-	url = https://github.com/dearkk/monitor.git
-[submodule "supervise"]
-	path = supervise
-	url = https://github.com/dearkk/supervise.git
-[submodule "dashboard"]
-	path = dashboard
-	url = https://github.com/dearkk/dashboard.git
-[submodule "master"]
-	path = master
-	url = https://github.com/dearkk/master.git

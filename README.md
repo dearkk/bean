@@ -1,3 +1,10 @@
+| 模块名称  | 功能  |
+|:----------|:----------|
+| market    | 主程序    |
+| component    | 公共包、公共组件、所有第三方依赖库    |
+| apple    | 用户、角色权限管理    |
+
+
 // 添加子模块方法git submodule add https://github.com/dearkk/kube-mesh.git
 克隆项目后，默认子模块目录下无任何内容。需要在项目根目录执行如下命令完成子模块的下载：
 git submodule init
