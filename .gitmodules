@@ -10,9 +10,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/dearkk/gateway.git
-[submodule "dashboard"]
-	path = dashboard
-	url = https://github.com/dearkk/dashboard.git
 [submodule "market"]
 	path = market
 	url = https://github.com/dearkk/market.git
@@ -22,3 +19,9 @@
 [submodule "supervise"]
 	path = supervise
 	url = https://github.com/dearkk/supervise.git
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/dearkk/dashboard.git
+[submodule "master"]
+	path = master
+	url = https://github.com/dearkk/master.git
