@@ -4,3 +4,9 @@
 [submodule "market"]
 	path = market
 	url = https://github.com/dearkk/market.git
+[submodule "apple"]
+	path = apple
+	url = https://github.com/dearkk/apple.git
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/dearkk/dashboard.git
