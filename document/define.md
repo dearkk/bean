@@ -45,7 +45,7 @@ http响应状态码都是200；当操作成功时，code 为200，result 是 suc
 ```
 {
 	"code":200,// 操作结果状态码
-	"result":"success",// 操作结果描述
+	"msg":"success",// 操作结果描述
 	"data":{
 		"page_size":10,//每页大小
 		"page_num":1,//页码
