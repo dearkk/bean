@@ -3,6 +3,7 @@
 ---
 | 字段标识 | 类型 | 必填  | 默认值  | 属性  | 字段名称
 |:----------|:----------|:----------|:----------|:----------|:----------|
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
+| id    | int    | 是    | 自增ID    | primary_key    | 唯一自增ID    |
+| name    | varchar(16)    | 是    | -    | -    | 角色名称    |
+| created_at    | time    | 是  | 自动生成  | -    | 创建时间   |
+| desc    | varchar(128)    | 否  | -  | -    | 角色描述  |

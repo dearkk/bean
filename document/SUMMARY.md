@@ -4,7 +4,7 @@
 * [约定](define.md)
 * [数据库设计](database/database.md)
     * [账户信息表](database/b_account.md)
-    * [系统功能权限信息表](database/b_permission.md)
+    * [系统接口权限表](database/b_permission.md)
     * [角色信息表](database/b_role.md)
     * [账户角色对应表](database/b_account_role.md)
     * [项目信息表](database/b_project.md)

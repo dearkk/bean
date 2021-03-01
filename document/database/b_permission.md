@@ -3,6 +3,8 @@
 ---
 | 字段标识 | 类型 | 必填  | 默认值  | 属性  | 字段名称
 |:----------|:----------|:----------|:----------|:----------|:----------|
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
-| Cell 1    | Cell 2    | Cell 3    | Cell 4    | Cell 5    | Cell 6    |
+| id    | int  | 是  | 自增ID   | primary_key   | 权限ID   |
+| parent_id  | int    | 是    | 0    | -    | 父权限ID    |
+| name    | varchar(32)    | 是  | -  | 非空   | 权限名称   |
+| path    | varchar(64)    | 是  | -  | unique  | 权限对应接口(唯一)   |
+| desc    | varchar(64)    | 是  | -  | 非空   | 权限接口描述   |
