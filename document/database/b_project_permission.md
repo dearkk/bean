@@ -1,10 +1,10 @@
-系统功能权限数据库表名：b_account,字段如下
+系统接口权限数据库表名：b_permission,字段如下
 
 ---
 | 字段标识 | 类型 | 必填  | 默认值  | 属性  | 字段名称
 |:----------|:----------|:----------|:----------|:----------|:----------|
 | id    | int  | 是  | 自增ID   | primary_key   | 权限ID   |
-| parent_id  | int    | 是    | 0    | -    | 父权限ID    |
+| group_id  | int    | 是    | 0    | -    | 权限组ID    |
 | name    | varchar(32)    | 是  | -  | 非空   | 权限名称   |
-| path    | varchar(64)    | 是  | -  | unique  | 权限对应接口(唯一)   |
-| desc    | varchar(64)    | 是  | -  | 非空   | 权限接口描述   |
+| path    | varchar(128)    | 是  | -  | unique  | 权限对应接口(唯一)   |
+| created_at   | time | 是   | 自动生成   | -    | 创建时间    |
