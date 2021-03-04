@@ -16,3 +16,4 @@
 | children_max  | int | 是   | 10   | -    | 该账户下子账户最多个数  |
 | children_cur  | int | 是   | 0   | -    | 该账户下子账户当前个数  |
 | parent_id    | varchar(32) | 是   | "none"   | index    | 所属父级账户    |
+| menu_role_id    | int | 是   | -   | -   | 账户菜单角色    |
