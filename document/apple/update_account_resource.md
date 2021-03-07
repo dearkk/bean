@@ -29,8 +29,9 @@
 | name    | varchar(64)  | 是   | - | -    | 账户名称  |
 | password    | varchar(32)  | 是   | -   | -   | 账户密码(密文)   |
 | telephone    | varchar(16)  | 否   | -   | -   | 座机号码   |
+| organization    | varchar(64)  | 是   | -   | -   | 组织机构名称   |
+| status    | int | 是   | 1   | -    | 账户状态，0：关闭状态，1：激活状态  |
 | mobile    | varchar(13)  | 否   | -   | -   | 手机号码(+86)   |
-| contacts    | varchar(16)  | 否   | -   | -   | 联系人   |
 | desc    | varchar(1024)  |否   | ""   | -    | 备注信息  |
 | children_max  | int | 是   | 10   | -    | 该账户下子账户最多个数(系统超级管理员才能修改)  |
 

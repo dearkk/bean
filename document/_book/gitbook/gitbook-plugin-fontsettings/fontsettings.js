@@ -121,7 +121,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Return the correct id for a font-family config key
     // Default to first font-family
     function getFontFamilyId(configName) {
-        // Search for plugin configured font family
+        // Search for bin configured font family
         var configFamily = $.grep(FAMILIES, function(family) {
             return family.config == configName;
         })[0];
@@ -132,7 +132,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Return the correct id for a theme config key
     // Default to first theme
     function getThemeId(configName) {
-        // Search for plugin configured theme
+        // Search for bin configured theme
         var configTheme = $.grep(THEMES, function(theme) {
             return theme.config == configName;
         })[0];
@@ -157,7 +157,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     }
 
     function init(config) {
-        // Search for plugin configured font family
+        // Search for bin configured font family
         var configFamily = getFontFamilyId(config.family),
             configTheme = getThemeId(config.theme);
 

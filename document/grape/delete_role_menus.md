@@ -1,9 +1,9 @@
 **简要描述：**
 
-- 该接口用于添加菜单项到相应的角色上。
+- 该接口用于移除菜单角色上对应的菜单项。
 
 **请求URL：**
-- ` http://xx.com/grape/v1/role/menu/create `
+- ` http://xx.com/grape/v1/role/menus/delete `
 
 **请求方式：**
 - POST
@@ -13,7 +13,7 @@
   {
     "id": 1, //角色ID
     "name":"角色", //菜单角色名称varchar(32)
-    "menu_name": ["name1","name2","name3"],  //菜单项名称数组
+    "menus_name": ["name1","name2","name3"],  //菜单项名称数组
   }
 ```
 

@@ -1,9 +1,9 @@
 **简要描述：**
 
-- 该接口前端删除菜单的角色。
+- 创建项目接口。
 
 **请求URL：**
-- ` http://xx.com/grape/v1/menu/role/delete `
+- ` http://xx.com/orange/v1/project/create `
 
 **请求方式：**
 - POST
@@ -11,8 +11,7 @@
 **参数：**
 ```
   {
-    "id": 1, //角色ID
-    "name":"角色", //菜单角色名称varchar(32)
+    "name": "大豆云科技-移动终端",  //项目名称
   }
 ```
 

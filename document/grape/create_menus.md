@@ -17,12 +17,16 @@
       "name": "platform",   //路由名称
       "meta":{
         "title": "平台管理"    //标题
+        "icon": "el-user"   //菜单图标
+        "component": "@/views/main/platform.vew", //组件绝对位置
       }
       "children":[      //该菜单下的子菜单
         "path": "/overview",  //路由路径
         "name": "overview",   //路由名称
         "meta":{
           "title": "平台概述"    //标题
+          "icon": "el-user"   //菜单图标
+          "component": "@/views/main/platform/overview.vue", //组件绝对位置
         }
         "children":[]   //该菜单下的子菜单
       ]

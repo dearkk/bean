@@ -5,10 +5,11 @@
 |:----------|:----------|:----------|:----------|:----------|:----------|
 | id    | varchar(32) | 是 | - | primary_key    | 账户ID唯一  |
 | name    | varchar(64)  | 是   | - | -    | 账户名称  |
+| organization    | varchar(64)  | 是   | -   | -   | 组织机构名称   |
 | password    | varchar(32)  | 是   | -   | -   | 账户密码(密文)   |
+| status    | int | 是   | 1   | -    | 账户状态，0：关闭状态，1：激活状态  |
 | telephone    | varchar(16)  | 否   | -   | -   | 座机号码   |
 | mobile    | varchar(13)  | 否   | -   | -   | 手机号码(+86)   |
-| contacts    | varchar(16)  | 否   | -   | -   | 联系人   |
 | created_at   | time | 是   | 自动生成   | -    | 创建时间    |
 | update_at    | time | 是   | 自动生成   | -    | 上一次更新时间    |
 | desc    | varchar(1024)  |否   | ""   | -    | 备注信息  |

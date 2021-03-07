@@ -3,8 +3,9 @@
 ---
 | 字段标识 | 类型 | 必填  | 默认值  | 属性  | 字段名称
 |:----------|:----------|:----------|:----------|:----------|:----------|
-| id    | int    | 是    | 自增ID    | primary_key    | 唯一自增ID    |
+| name    | varchar(64)    | 是    | -    | primary_key    | 菜单路由名称    |
 | group_id    | int    | 是    | -    | -    | 所属分组ID    |
-| name    | varchar(64)    | 是    | -    | -    | 路由名称    |
-| title    | varchar(64)    | 是    | -    | -    | 路由标题    |
-| component   | varchar(128)    | 是  | -  | -    | 路由组件绝对路径   |
+| title    | varchar(64)    | 是    | -    | -    | 菜单路由标题    |
+| component   | varchar(128)    | 是  | -  | -    | 菜单路由组件绝对路径   |
+| path   | varchar(64)    | 是  | -  | -    | 菜单路由path   |
+| icon   | varchar(32)    | 是  | -  | -    | 菜单图标   |
