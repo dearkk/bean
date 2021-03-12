@@ -10,3 +10,6 @@
 [submodule "component"]
 	path = component
 	url = https://github.com/dearkk/component.git
+[submodule "grape"]
+	path = grape
+	url = https://github.com/dearkk/grape.git
